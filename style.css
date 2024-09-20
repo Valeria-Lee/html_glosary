@@ -12,7 +12,7 @@ body {
 header {
     height: 10vh;
     font-size: 4vh;
-    background-image: url(/img/picnic_pattern.jpg);
+    background-image: url(/img/picnic_pattern.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +93,7 @@ main {
 article {
     font-size: 4vh;
     background-color: #C5202E;
-    margin: 0.8vh;
+    margin: 2vh;
     padding: 2vh;
     width: 28%;
 }
@@ -110,8 +110,16 @@ section {
     text-align: center;
 }
 
+#definitions {
+    background-image: url(img/mr_fox_pattern.jpg);
+}
+
 section article {
     display: inline-block;
+}
+
+#title {
+    background-color: #FFC907;
 }
 
 .code {
