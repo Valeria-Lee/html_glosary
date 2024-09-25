@@ -116,6 +116,7 @@ section {
 
 section article {
     display: inline-block;
+    vertical-align: middle;
 }
 
 #title {
