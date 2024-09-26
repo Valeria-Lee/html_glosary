@@ -43,7 +43,7 @@ img.icon {
 }
 
 #landing-page h1 {
-    font-size: 16vh;
+    font-size: 12em;
     color: white;
     font-weight: 200;
     font-family: "Jacquarda Bastarda 9", serif;
@@ -56,7 +56,7 @@ img.icon {
 
 #landing-page {
     height: 100vh;
-    background-image: url(/img/8ea010307b0145b798709a3553ed2bbb.gif);
+    background-image: url(/img/8a1e2a57e549e453bbeacb428989bca5.gif);
     background-size: 100%;
     display: flex;
     align-items: center;
@@ -83,7 +83,6 @@ header * {
 }
 
 main {
-    background-color: #E8A32A;
     color: white;
 }
 
@@ -147,5 +146,28 @@ section article {
     position: fixed;
     bottom: 2em;
     right: 2em;
-    border: #C5202E dashed 0.2em;
+    border: #C5202E dashed 0.16em;
+}
+
+@media (max-width:720px){
+    article {
+        width: 80%;
+    }   
+
+    #landing-page h1 {
+        font-size: 7.2em;
+    }
+
+    header {
+        height: 20vh;
+    }
+
+    #title {
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: #C5202E 0.2em solid;
+        font-size: 6em;
+    }
 }
