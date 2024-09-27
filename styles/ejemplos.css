@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Jacquarda+Bastarda+9&family=Patrick+Hand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Patrick Hand', cursive;
+}
+
+header * {
+    display: inline;
+    font-weight: 500;
+    color: #C5202E;
+}
+
+header {
+    height: 10vh;
+    font-size: 4vh;
+    background-image: url(/img/picnic_pattern.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header h2 {
+    font-size: 6.4vh;
+    vertical-align: middle;
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+}
+
+header a {
+    color: #7A5832;
+}
+
+a {
+    text-decoration: none;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+img.main-icon {
+    width: 6vh;
+}
+
+img.icon {
+    width: 8vh;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+}
+
+main {
+    background-image: url(/img/7ea1f3ef1396aaf4bc8acfe6b77b10d3.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+div {
+    background-color: #FFC907;
+    display: inline-block;
+    padding: 1.2em;
+    margin: 1.2em;
+    border: dotted #EF783E 0.4em;
+    color:#C5202E;
+    vertical-align: middle;
+}
+
+#ejemplo-img {
+    width: 8em;
+}
+
+table, td {
+    border: solid #C5202E 0.2em;
+    padding: 0.2em;
+}
+
+footer {
+    text-align: center;
+    font-size: 2.8vh;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3cf88;
+    border-top: 2em groove #EF783E;
+    padding: 2em;
+}
+
+span img {
+    height: 4em;
+    vertical-align: middle;
+}
+
+footer * {
+    margin: 1.6em;
+}
+
+footer a:last-of-type {
+    margin: 0.2em;
+}
+
+footer a {
+    color: #C5202E;
+}
+
+a img {
+    width: 1.2em;
+    height: auto;
+    margin: 0.2em;
+}
