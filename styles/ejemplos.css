@@ -18,7 +18,7 @@ header * {
 header {
     height: 10vh;
     font-size: 4vh;
-    background-image: url(/img/picnic_pattern.png);
+    background-image: url(../assets/img/picnic_pattern.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +63,7 @@ img.icon {
 }
 
 main {
-    background-image: url(/img/7ea1f3ef1396aaf4bc8acfe6b77b10d3.jpg);
+    background-image: url(../assets/img/7ea1f3ef1396aaf4bc8acfe6b77b10d3.jpg);
     background-size: cover;
     text-align: center;
 }

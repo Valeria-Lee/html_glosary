@@ -12,7 +12,7 @@ body {
 header {
     height: 10vh;
     font-size: 4vh;
-    background-image: url(../img/picnic_pattern.png);
+    background-image: url(../assets/img/picnic_pattern.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +57,7 @@ img.icon {
 
 #landing-page {
     height: 100vh;
-    background-image: url(../img/8a1e2a57e549e453bbeacb428989bca5.gif);
+    background-image: url(../assets/img/8a1e2a57e549e453bbeacb428989bca5.gif);
     background-size: 100%;
     display: flex;
     align-items: center;
@@ -102,7 +102,7 @@ section {
 }
 
 #definitions {
-    background-image: url(../img/mr_fox_pattern.jpg);
+    background-image: url(../assets/img/mr_fox_pattern.jpg);
 }
 
 section article {
